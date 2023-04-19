@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>TravelWhithUS</title>
+</head>
+<body>
+    <header>
+      <img class="logo" src="./img/Restaurante.png" alt="logo">
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
+          <ul class="nav-list">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./seccion/sobrenos.html">Sobre Nosotros</a></li>
+            <li><a href="./seccion/paquetes.html">Paquetes</a></li>
+            <li><a href="./seccion/contacto.html">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="arriba">
+            <p class="p-arriba">Somos una empresa especializada en ofrecer experiencias únicas de turismo aventura en  los lugares más sorprendentes del mundo. Nuestros guías expertos te llevarán a descubrir la naturaleza de una manera emocionante y segura.</p>
+			      <p class="p-arriba">¿Estás listo para vivir una aventura inolvidable?</p>
+            <button class="bt-arriba"><a class="bt-a" href="./seccion/contacto.html">Contáctanos</a></button>
+      </section>
+
+      <section class="sn">
+        <h2 class="ti-sn">¿Quiénes somos?</h2>
+        <div class="sobre-nos"> 
+          <img class="im-sn" src="./img/inisec1.jpg" alt=""> 
+          <p class="p-sn">"Travel With Us es una agencia de viajes dedicada a ofrecer experiencias únicas y personalizadas para nuestros clientes, con un equipo experto en turismo."</p>       
+        </div>
+      </section>
+
+      <section class="viajes">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/INGLAND.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/cruce1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/mendoza.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+            <button class="boton-carrusel"><a class="btnn-car" href="./seccion/paquetes.html">Mirá nuestras ofertas</a></button> 
+        
+            <section class="slider">
+              <h1 class="tit-test">Testimonios de gente que viajó con nosotros</h1>
+             <div class="slider__container containerr">
+                 <img src="./img/icons8-less-than-50.png" alt="" id="before"> 
+           
+                   <div class="slider__body slider__body--show" data-id="1">
+                    <div class="slider__texts">
+                       <h2 class="subtitle">Maria y sus amigas</h2>
+                       <p class="slider__review">
+                          "Quería agradecer a Travel With Us por una experiencia inolvidable. El servicio que brindan es excepcional, y los guías son algunos de los más experimentados y amigables que he conocido. Me sentí muy bien cuidado durante todo el viaje, y volvería a viajar con ellos en cualquier momento." 
+                       </p>
+                    </div>
+           
+                     <figure class="slider__picture">
+                         <img class="slider__img" src="./img/testi2.jpg" alt="">
+                     </figure>
+                   </div>
+                   <div class="slider__body" data-id="2">
+                    <div class="slider__texts">
+                       <h2 class="subtitle">Juan Gonzales</h2>
+                       <p class="slider__review">
+                          "No puedo decir suficientes cosas buenas sobre Travel With Us. Desde el primer momento, me sentí muy bien cuidado y bienvenido. Los guías son verdaderos expertos en lo que hacen, y me enseñaron mucho sobre la cultura local y la historia de los lugares que visitamos. Sin duda volveré a viajar con ellos en el futuro." 
+                       </p>
+                    </div>
+           
+                     <figure class="slider__picture">
+                         <img class="slider__img" src="./img/testi1.jpg" alt="">
+                     </figure>
+                   </div>
+                   <div class="slider__body" data-id="3">
+                    <div class="slider__texts">
+                       <h2 class="subtitle">Camila y Lautaro</h2>
+                       <p class="slider__review">
+                          "Tuve el mejor viaje de mi vida gracias a Travel With Us. Los destinos que ofrecen son verdaderamente únicos, y la calidad de su servicio es excepcional. Los guías son muy apasionados por lo que hacen, y eso se nota en todo momento. ¡Recomiendo encarecidamente viajar con ellos!"
+                       </p>
+                    </div>
+           
+                     <figure class="slider__picture">
+                         <img class="slider__img" src="./img/testi3.jpg" alt="">
+                     </figure>
+                   </div>
+                   <div class="slider__body" data-id="4">
+                    <div class="slider__texts">
+                       <h2 class="subtitle">Grupo de amigos</h2>
+                       <p class="slider__review">
+                          "Tuve el mejor viaje de mi vida gracias a Travel With Us. Los destinos que ofrecen son verdaderamente únicos, y la calidad de su servicio es excepcional. Los guías son muy apasionados por lo que hacen, y eso se nota en todo momento. ¡Recomiendo encarecidamente viajar con ellos!"
+                       </p>
+                    </div>
+           
+                     <figure class="slider__picture">
+                         <img class="slider__img" src="./img/testi4.jpg" alt="">
+                     </figure>
+                   </div>
+                    
+                 <img src="./img/icons8-right-50.png" alt=""
+                 id="next">
+             </div>
+           </section>
+    </main>
+    
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h2>Travel With Us</h2>
+          <p class="pa">Somos una agencia de viajes que se dedica a ofrecer experiencias únicas y personalizadas para nuestros clientes.</p>
+          <h3 class="tit">Contáctanos:</h3>
+          <ul class="footer-list">
+            <li><i class="phone"></i> 2916790693</li>
+            <li><i class="email"></i> info@travelwithus.com</li>
+            <li><i class="calle"></i> Calle Falsa 123, Ciudad Ficticia, País Imaginario</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 class="tit">Enlaces rápidos</h3>
+          <ul class="footer-list">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./seccion/paquetes.html">Paquetes</a></li>
+            <li><a href="./seccion/sobrenos.html">Sobre nosotros</a></li>
+            <li><a href="./seccion/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3 class="tit">Síguenos</h3>
+          <ul class="footer-list">
+            <li><a target="_blank" href="https://www.facebook.com/"><i class="facebook"></i><img class="rs" src="./img/icons8-facebook-48.png" alt=""></a></li>
+            <li><a target="_blank" href="https://twitter.com/"><i class="twitter"></i><img class="rs" src="./img/icons8-twitter-48.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/"><i class="instagram"></i><img class="rs" src="./img/icons8-instagram-48.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr>
+        <p>Derechos de autor © 2023 Travel With Us | Todos los derechos reservados</p>
+      </div>
+  </footer>
+  <script src="./bootstrap.min.js"></script>
+  <script src="./all.js"></script>
+</body>
+</html>
